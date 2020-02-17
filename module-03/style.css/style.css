@@ -11,6 +11,7 @@ header {
 
 a {
     text-decoration: none;
+    color: #626262;
 }
 
 .nav_list {
@@ -20,7 +21,6 @@ a {
 .nav_list_item {
     list-style: none;
     display: inline-block;
-    color: #626262;
     font-family: 'Playfair Display', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -34,7 +34,7 @@ a {
 }
 
 .nav_list_item a:hover {
-    color: #4ec6ab;
+    color: #03a9f4;
 }
 
 .main_section {
@@ -99,10 +99,6 @@ button {
     margin-bottom: 70px;
 }
 
-
-/* button:hover {
-    color: green;
-    font-size: 22px;
-    background-color: lightcyan;
-    border-radius: 3%;
-} */
+button:hover {
+    cursor: pointer;
+}
