@@ -34,7 +34,7 @@
 }
 
 .nav_list {
-    width: 510px;
+    width: 518px;
     list-style: none;
     float: right;
     padding-top: 3px;
@@ -62,6 +62,8 @@
     color: #1abc9c;
 }
 
+.nav_list_item a:focus {}
+
 .container {
     margin: 0 auto;
     width: 1110px;
@@ -70,8 +72,6 @@
 .about {
     margin-bottom: 105px;
 }
-
-h2 {}
 
 .about_title {
     font-size: 48px;
@@ -120,6 +120,7 @@ h2::after {
     padding-top: 10px;
     padding-left: 10px;
     float: left;
+    margin-top: -4px;
 }
 
 .stuff_name {
@@ -150,7 +151,7 @@ h2::after {
 
 .description_list_item {
     width: 350px;
-    height: 500px;
+    height: 480px;
     float: left;
     font-family: "Open Sans";
     font-weight: 700;
@@ -193,7 +194,7 @@ h3::after {
 }
 
 .button {
-    padding: 17px 40px 17px 40px;
+    padding: 12px 38px;
     font-family: "Open Sans";
     font-weight: 300;
     font-size: 16px;
@@ -203,4 +204,7 @@ h3::after {
     border-radius: 5px;
     box-shadow: none;
     text-decoration: none;
+    display: block;
+    width: 160px;
+    height: 50px;
 }
