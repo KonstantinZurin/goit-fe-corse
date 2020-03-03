@@ -1,0 +1,141 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    min-width: 100%;
+    height: auto;
+}
+
+.header {
+    width: 940px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    /* height: 80px; */
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 128px;
+}
+
+header a {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 26px;
+    line-height: 41px;
+    color: #fed136;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+}
+
+.nav__list-item a {
+    font-style: 14px;
+    line-height: 41px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #222222;
+}
+
+.nav__list-item:hover a {
+    color: #fed136;
+    cursor: pointer;
+}
+
+.nav__list-item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.services {
+    text-align: center;
+    margin-bottom: 128px;
+}
+
+.about-title {
+    font-size: 40px;
+    line-height: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #222222;
+    margin-bottom: 25px;
+}
+
+.about-desc {
+    font-size: 16px;
+    line-height: 1.2;
+    font-family: 'Droid', serif;
+    color: #9b9b9b;
+    margin-bottom: 80px;
+}
+
+.services__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__list-item {
+    width: 240px;
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-img {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.bascket {
+    background-image: url(../img/Icon-Basket.png);
+}
+
+.laptop {
+    background-image: url(../img/Icon-Laptop.png);
+}
+
+.locked {
+    background-image: url(../img/Icon-Locked.png);
+}
+
+.about-info h3 {
+    font-size: 18px;
+    line-height: 75px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #313131;
+}
+
+.about-info p {
+    font-size: 14px;
+    line-height: 1.2;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 400;
+    color: #777777;
+}
+
+,
+.wrapper {
+    background-image: url(../img/wrapper-Image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}

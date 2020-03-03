@@ -295,6 +295,7 @@ img {
     justify-content: space-between;
     min-height: 80px;
     align-items: center;
+    border-top: 1px solid #ececec;
 }
 
 .copyright {
@@ -314,6 +315,7 @@ img {
     background-color: #95e1d3;
     color: #fff;
     border: transparent;
+    cursor: pointer;
 }
 
 .send form {
@@ -329,5 +331,10 @@ input {
     width: 234px;
     height: 40px;
     text-align: left;
-    border: 1px solid #ececec;
+    border: 1px solid #e5e5e5;
+}
+
+input::placeholder {
+    padding: 8px 0;
+    padding-left: 10px;
 }
