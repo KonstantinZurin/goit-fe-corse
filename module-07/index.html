@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Module-07</title>
     <link rel="stylesheet" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Poppins:400i,700i&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -55,19 +56,21 @@
                 <h2>CONTACTS US</h2>
                 <p>Proin iaculis puru s consequat sem cure. </p>
             </div>
-            <div class="container">
-                <div class="form">
-                    <form action="#">
-                        <input type="text" name="user-name" placeholder="your Name * " required>
-                        <input type="password " name="user-password " placeholder="your e-mail *" id="" required>
-                        <input type="text" name="subject" placeholder="subject">
-                    </form>
-                </div>
-                <div class="textarea">
-                    <form action="#">
-                        <textarea name="description" id="" cols="30" rows="10" placeholder="YOUR MASSEGE"></textarea>
-                    </form>
-                </div>
+            <div class="container user__form">
+
+                <form action="#" class="user-info">
+                    <div class="form-info">
+                        <input type="text" name="user-name" placeholder="YOUR NAME" required class="required" minlength="5">
+                        <input type="email" name="user-email" placeholder="YOUR E-MAIL " id="" required class="required">
+                        <input type="text" name="subject" placeholder="SUBJECT">
+                    </div>
+                    <div class="textarea">
+                        <textarea name="description" id="" cols="30" rows="10" placeholder="YOUR MASSEGE" required minlength="5" class="message"></textarea>
+                    </div>
+                    <div class="btn">
+                        <button class="send">SEND MESSAGE</button>
+                    </div>
+                </form>
             </div>
         </div>
     </main>
