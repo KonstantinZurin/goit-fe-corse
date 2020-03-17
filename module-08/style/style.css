@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.wrapper {
+    background-image: url("../img/wrapper-img.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo {
+    font-family: 'Motnserrat', sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: #ededec;
+    display: flex;
+    align-items: center;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 165px;
+}
+
+.nav__list-btn {
+    font-family: 'Motnserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    width: 90px;
+    height: 36px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 20px;
+    background-color: rgba(26, 25, 21, 0);
+    outline: none;
+    box-sizing: border-box;
+}
+
+
+/* доделать ховер */
+
+.nav__list-item:hover .nav__list-btn,
+.nav__list-item:focus .nav__list-btn {
+    border: 2px solid rgba(255, 255, 255, 1);
+    cursor: pointer;
+}
+
+.main {
+    margin: 0 auto;
+}
+
+.about {
+    margin: 0 auto;
+}
+
+.about-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 29px;
+    line-height: 1.2;
+    font-weight: 700px;
+    color: #fff;
+    text-align: center;
+}
+
+.about-text {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #fff;
+    text-align: center;
+}
+
+.about-btn {
+    text-align: center;
+}
+
+.about-btn button {
+    height: 40px;
+    width: 226px;
+    background-color: #ff4e50;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    line-height: 1.2;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+}
+
+.partners h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.2;
+    color: #333333;
+    text-align: center;
+}
+
+.pratners__list {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.partners__list-item {
+    margin: 0 auto;
+    width: 240px;
+}
+
+.partners__list-img {
+    width: 120px;
+    height: 120px;
+}
+
+.list-icon {
+    position: relative;
+    width: 220px;
+    margin: 0 auto;
+}
+
+.partners-img {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 42px;
+    bottom: 4px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #333333;
+    margin: 20px 0;
+}
+
+.about-partners {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #8f8f8f;
+    text-align: center;
+    padding: 0 50px;
+}
+
+.tv {
+    background-image: url(../img/icon/TV.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ff4e50;
+}
+
+.alch-bottle {
+    background-image: url(../img/icon/alch-bottle.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #ffa507;
+}
+
+.cup {
+    background-image: url(../img/icon/cup.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #1cd7ad;
+}
+
+.paper-plane {
+    background-image: url(../img/icon/paper-plane.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #4e73db;
+}
+
+.partners-btn {
+    text-align: center;
+}
+
+.other_partners {
+    border: none;
+    border: 1px solid #ff4e50;
+    border-radius: 20px;
+    width: 280px;
+    height: 40px;
+    background-color: #ffffff;
+    color: #ff4e50;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.2;
+    cursor: pointer;
+}

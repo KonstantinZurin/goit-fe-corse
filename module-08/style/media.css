@@ -1,0 +1,115 @@
+@media (max-width: 767px) {
+    .container {
+        margin: 0 auto;
+        width: 320px;
+        padding: 0 15px;
+    }
+    .nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo {
+        order: 1;
+        margin-top: 130px;
+    }
+    .nav__list {
+        padding-top: 20px;
+    }
+    .about-title {
+        padding-top: 40px;
+    }
+    .about-text {
+        padding: 25px 20px 20px;
+    }
+    .about-btn button {
+        margin-bottom: 134px;
+    }
+    .partners h3 {
+        text-align: center;
+        margin-top: 74px;
+        margin-bottom: 20px;
+    }
+    .partners__list-item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+    .partners-btn {
+        margin-bottom: 57px;
+    }
+}
+
+@media (min-width: 768px) {
+    .header {
+        margin-bottom: 160px;
+    }
+    .nav {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 50px;
+        width: 660px;
+        margin: 0 auto;
+    }
+    .about {
+        width: 768px;
+    }
+    .about-title {
+        font-size: 52px;
+        padding: 0 100px;
+        margin-bottom: 44px;
+    }
+    .about-text {
+        font-size: 22px;
+        margin-bottom: 40px;
+    }
+    .about-btn button {
+        margin-bottom: 234px;
+    }
+    .partners {
+        width: 530px;
+        margin: 0 auto;
+    }
+    .partners h3 {
+        margin-top: 74px;
+        margin-bottom: 38px;
+    }
+    .pratners__list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 40px;
+    }
+    .partners__list-item:nth-child(-n+2) {
+        margin-bottom: 60px;
+    }
+    .partners-btn {
+        margin-bottom: 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 939px) {
+    .partners__list {
+        padding: 0 80px;
+    }
+}
+
+@media (min-width: 940px) {
+    .nav {
+        width: 940px;
+    }
+    .about-title {
+        width: 510px;
+        margin: 0 auto;
+        padding: 0;
+        margin-bottom: 45px;
+    }
+    .about-text {
+        font-size: 24px;
+    }
+    .container {
+        width: 940px;
+    }
+    .partners__list-item {
+        width: 230px;
+    }
+}
