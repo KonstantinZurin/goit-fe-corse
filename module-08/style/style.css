@@ -101,6 +101,7 @@ a {
     cursor: pointer;
     border: none;
     border-radius: 20px;
+    outline: none;
 }
 
 .partners h3 {
@@ -208,4 +209,5 @@ a {
     font-size: 14px;
     line-height: 1.2;
     cursor: pointer;
+    outline: none;
 }
