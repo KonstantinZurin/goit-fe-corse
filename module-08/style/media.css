@@ -79,9 +79,6 @@
         flex-wrap: wrap;
         margin-bottom: 40px;
     }
-    .partners__list-item:nth-child(-n+2) {
-        margin-bottom: 60px;
-    }
     .partners-btn {
         margin-bottom: 40px;
     }
@@ -90,6 +87,9 @@
 @media (min-width: 768px) and (max-width: 939px) {
     .partners__list {
         padding: 0 80px;
+    }
+    .partners__list-item:nth-child(-n+2) {
+        margin-bottom: 60px;
     }
 }
 
@@ -111,5 +111,14 @@
     }
     .partners__list-item {
         width: 230px;
+    }
+    .partners__list-item:nth-child(2) {
+        order: 2;
+    }
+    .partners__list-item:nth-child(3) {
+        order: 1;
+    }
+    .partners__list-item:nth-child(4) {
+        order: 3;
     }
 }
