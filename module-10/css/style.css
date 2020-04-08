@@ -280,7 +280,7 @@ h1 {
     width: 380px;
 }
 
-.team-list__item:not(:last-child) {
+.team__list-item:not(:last-child) {
     margin-right: 20px;
 }
 
