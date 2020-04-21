@@ -388,6 +388,8 @@ h1 {
 /* FOOTER */
 
 .ftr-content {
+    border-top: 1px solid #ececec;
+    padding-top: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
