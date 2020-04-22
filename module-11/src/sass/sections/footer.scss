@@ -1,0 +1,54 @@
+.ftr-content {
+    border-top: 1px solid #ececec;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 26px;
+}
+
+.ftr-description {
+    font-family: $main-font;
+    font-weight: 400;
+    font-size: 14px;
+    color: #333333;
+    padding-top: 15px;
+}
+
+.designer {
+    color: #f38181;
+}
+
+.ftr-form {
+    display: flex;
+
+    input {
+        width: 234px;
+        height: 40px;
+        font-family: $secondary-font;
+        font-weight: 200;
+        font-size: 15px;
+        line-height: 24px;
+        color: #ececec;
+        border: 1px solid #e5e5e5;
+
+        &::placeholder {
+            padding: 8px 0;
+            padding-left: 10px;
+            outline: none;
+        }
+    }
+
+}
+
+.ftr-btn {
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #95e1d3;
+    font-family: $main-font;
+    font-weight: 400;
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
