@@ -26,6 +26,11 @@ h1 {
     margin: 0;
 }
 
+.container {
+    width: 1201px;
+    margin: 0 auto;
+}
+
 
 /* HEADER */
 
@@ -46,10 +51,7 @@ h1 {
     }
 }
 
-.container {
-    width: 1201px;
-    margin: 0 auto;
-}
+
 
 .logo {
     width: 85px;
