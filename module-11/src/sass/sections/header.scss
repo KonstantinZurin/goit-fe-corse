@@ -5,6 +5,11 @@
     background-size: cover;
     padding-top: 38px;
     padding-bottom: 230px;
+
+    @media (min-resolution: 192dpi) {
+        background-image: url(../images/background-image@2x.jpg);
+      
+   }
    
 &-title {
     font-family: 'Kaushan Script', serif;
@@ -50,14 +55,7 @@
 }
 
 
-@media (min-resolution: 192dpi) {
-    .header {
-        background-image: url(../images/background-image@2x.jpg);
-    }
-        
 
-
-}
 
 
 .logo {
